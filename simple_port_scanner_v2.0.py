@@ -20,7 +20,7 @@ def scanned_and_open_ports():
 # Use try-except to handle errors
 try:
   # Take input the target IP and port range
-  ip = input("\nPlease Enter An Valid IP Address: ")
+  ip = input("\nPlease Enter A Valid IP Address: ")
   start_port = int(input("Enter Starting Port: "))
   end_port = int(input("Enter Ending Port: "))
 
