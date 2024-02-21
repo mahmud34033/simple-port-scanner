@@ -22,7 +22,7 @@ try:
   # Take input the target IP and port range
   ip = input("\nPlease Enter An Valid IP Address: ")
   start_port = int(input("Enter Starting Port: "))
-  end_port = int(input("Enter ending port: "))
+  end_port = int(input("Enter Ending Port: "))
 
   # Starting message
   print("\nStart scanning...\n")
